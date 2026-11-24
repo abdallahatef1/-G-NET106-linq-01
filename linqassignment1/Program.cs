@@ -48,13 +48,17 @@ namespace linqassignment1
             //    Console.WriteLine($"{item.Name} | {item.Price} | {item.StockStatus}");
             #endregion
 
-            #region 7
+            #region Q7
             //var q7 = Source.ProductList.Select((p, i) => $"{i + 1}. {p.ProductName}");
             //foreach (var line in q7)
             //    Console.WriteLine(line);
             #endregion
 
-
+            #region q8
+            //var q8 = Source.ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
+            //foreach (var p in q8)
+            //    Console.WriteLine($"{p.Category} - {p.ProductName} - {p.UnitPrice}");
+            #endregion
         }
     }
 }
