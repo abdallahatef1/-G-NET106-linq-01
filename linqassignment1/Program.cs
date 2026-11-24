@@ -48,6 +48,12 @@ namespace linqassignment1
             //    Console.WriteLine($"{item.Name} | {item.Price} | {item.StockStatus}");
             #endregion
 
+            #region 7
+            //var q7 = Source.ProductList.Select((p, i) => $"{i + 1}. {p.ProductName}");
+            //foreach (var line in q7)
+            //    Console.WriteLine(line);
+            #endregion
+
 
         }
     }
