@@ -24,6 +24,12 @@ namespace linqassignment1
             //foreach (var p in q3)
             //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
             #endregion
+
+            #region q4
+            //var q4 = Source.ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+            //foreach (var p in q4)
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            #endregion
         }
     }
 }
