@@ -36,6 +36,19 @@ namespace linqassignment1
             //foreach (var p in q5)
             //    Console.WriteLine($"{p.ProductName} - {p.UnitsInStock}");
             #endregion
+
+            #region q6
+            //var q6 = Source.ProductList.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Price = p.UnitPrice,
+            //    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //});
+            //foreach (var item in q6)
+            //    Console.WriteLine($"{item.Name} | {item.Price} | {item.StockStatus}");
+            #endregion
+
+
         }
     }
 }
