@@ -7,11 +7,17 @@ namespace linqassignment1
         static void Main(string[] args)
         {
             #region q1 
-            var q1 = Source.ProductList.Where(p => p.Category == "Seafood");
-            foreach (var p in q1)
-                Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            //var q1 = Source.ProductList.Where(p => p.Category == "Seafood");
+            //foreach (var p in q1)
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
             #endregion
-            
+
+            #region q2
+            //var q2 = Source.ProductList.Select(p => p.ProductName);
+            //foreach (var name in q2)
+            //    Console.WriteLine(name);
+
+            #endregion
         }
     }
 }
