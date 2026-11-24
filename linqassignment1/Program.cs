@@ -76,6 +76,13 @@ namespace linqassignment1
             //    Console.WriteLine($"{x.CustomerID} - {x.OrderDate:yyyy-MM-dd}");
             #endregion
 
+            #region q11
+            //var q11 = Source.ProductList.Select((p, i) => new { Position = i + 1, p.ProductName });
+            //foreach (var x in q11)
+            //    Console.WriteLine($"{x.Position} - {x.ProductName}");
+            #endregion
+
+
 
         }
     }
