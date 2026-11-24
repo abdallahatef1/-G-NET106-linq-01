@@ -82,6 +82,18 @@ namespace linqassignment1
             //    Console.WriteLine($"{x.Position} - {x.ProductName}");
             #endregion
 
+            #region q12
+            //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var q12 = Arr.OrderBy(w => w.Length).ThenBy(w => w.ToLower());
+
+            //foreach (var w in q12)
+            //    Console.WriteLine(w);
+
+            #endregion
+
+
+
 
 
         }
