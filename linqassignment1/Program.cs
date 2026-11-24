@@ -67,6 +67,15 @@ namespace linqassignment1
             //    Console.WriteLine($"{p.ProductName} - {p.UnitsInStock}");
             #endregion
 
+            #region q10
+            //var q10 = from c in Source.CustomerList
+            //          from o in c.Orders
+            //          where o.OrderDate.Year >= 1997
+            //          select new { c.CustomerID, o.OrderDate };
+            //foreach (var x in q10)
+            //    Console.WriteLine($"{x.CustomerID} - {x.OrderDate:yyyy-MM-dd}");
+            #endregion
+
 
         }
     }
