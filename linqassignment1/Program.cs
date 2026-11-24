@@ -18,6 +18,12 @@ namespace linqassignment1
             //    Console.WriteLine(name);
 
             #endregion
+
+            #region q3
+            //var q3 =Source.ProductList.OrderBy(p => p.UnitPrice);
+            //foreach (var p in q3)
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            #endregion
         }
     }
 }
