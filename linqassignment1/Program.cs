@@ -92,6 +92,15 @@ namespace linqassignment1
 
             #endregion
 
+            #region q13
+            //string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            //var q13 = digits.Where(d => d[1] == 'i').Reverse();
+
+            //foreach (var d in q13)
+            //    Console.WriteLine(d);
+            #endregion
+
 
 
 
